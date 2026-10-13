@@ -22,14 +22,14 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 * **The Output:** A fully cleaned, growing full-year dataset with **Document** the best performing media format and **Students Testimonial** the best content pillar.
 
 ### Workstream 2, 3 & 5: B2B & Foundation Scoring Pipelines
-* **The Problem:** What Afriment can solve for a list of targeted **53 companies** with possible operational problems, among **60 foundations** who can fund Afriment's interns and **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
+* **The Problem:** In these workstreams the primary question is: Which companies and communities are the best option that  Afriment can partner to offer its services or absorb sponsorships and community engagements?  A list of targeted **53 companies** with possible operational problems which talents can be offered, a list of **60 foundations** that can fund  interns & **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
 * **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
 * **The Output:** A verified pipeline of **40 Tier-1** companies and **38 confirmed** communities (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
 
 ### Workstream 4: Skills Market Intelligence Model
 * **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
-* **The Execution:** Ingested employer job postings and academy course catalogs. Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
-* **The Output:** Strategic curriculum adjustments identifying high-demand execution skills.
+* **The Execution:** 1.Ingested employer job postings and academy course catalogs. 2.Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
+* **The Output:** Strategic adjustments recommendations identifying Data Analytics with the highest oversaturated course while the Business Analytics, Project Managements & No-Code/Automation have a high demand but less academies offering them (Hot Cake).
 
 ## 4. Key Insights & Strategic Recommendations
 * **Content Strategy:** Educational carousels generated significantly higher sustainable engagement than standard promotional single images[cite: 1].
