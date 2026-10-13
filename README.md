@@ -21,15 +21,15 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 1.Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking. 2.Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines. 3.Analyzed for the best performing Media_Format and Content_Pillar. 4.Broke down the engagement rate trend over 12 months of data.
 * **The Output:** A fully cleaned, growing full-year dataset with **Document** the best performing media format and **Students Testimonial** the best content pillar.
 
-### Workstream 2 & 3: B2B & Foundation Scoring Pipelines
-* **The Problem:** What Afriment can solve for a list of targeted 53 companies with possible operational problems and among 60 mid-tier foundations who can fund Afriment's interns.
+### Workstream 2, 3 & 5: B2B & Foundation Scoring Pipelines
+* **The Problem:** What Afriment can solve for a list of targeted **53 companies** with possible operational problems, among **60 foundations** who can fund Afriment's interns and **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
 * **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
-* **The Output:** A verified pipeline of 40 Tier-1 pitch ready companies (Score >= 80) for potential partnership and 19 active funds to be approached.
+* **The Output:** A verified pipeline of **40 Tier-1** companies and **38 confirmed** communities (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
 
 ### Workstream 4: Skills Market Intelligence Model
-* **The Problem:** A market disconnect between academy course offerings and actual employer hiring demands across the region[cite: 1].
-* **The Execution:** Ingested employer job postings and academy course catalogs[cite: 1]. Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*)[cite: 1].
-* **The Output:** Strategic curriculum adjustments identifying high-demand execution skills[cite: 1].
+* **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
+* **The Execution:** Ingested employer job postings and academy course catalogs. Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
+* **The Output:** Strategic curriculum adjustments identifying high-demand execution skills.
 
 ## 4. Key Insights & Strategic Recommendations
 * **Content Strategy:** Educational carousels generated significantly higher sustainable engagement than standard promotional single images[cite: 1].
