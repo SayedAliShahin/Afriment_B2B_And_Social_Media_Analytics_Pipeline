@@ -1,9 +1,9 @@
 # Afriment B2B & Social Analytics Pipeline
 
 ## Executive Summary & Key Impact
-- **PIPELINE GOVERNANCE:** Architected clean data pipelines and strict QA gates across 5 workstreams, ensuring 100% schema integrity and zero downstream dashboard errors.
-- **B2B LEAD GENERATION:** Built a deterministic scoring engine for 178 entities, converting raw market data into a prioritized pipeline of 97 high-fit partners and sponsors.
-- **STRATEGIC GROWTH INTELLIGENCE:** Analyzed 12 months of social engagement and market skill gaps, uncovering under-served course markets and high-converting content formats for a strategic pivot.
+- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source data pipeline across 5 operational workstreams, enforcing 100% schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
+- **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across 178 B2B entities, unlocking a qualified target pipeline of 40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources for talent absorption and sponsorship.
+- **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed 12 months of social performance and market skill demands, identifying a high-performing carousel format and pinpointing an undersupplied course market gap (Business Analytics & Automation) to drive a strategic curriculum pivot.
 
 
 
