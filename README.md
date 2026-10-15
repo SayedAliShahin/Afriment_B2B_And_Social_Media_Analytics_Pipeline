@@ -1,6 +1,9 @@
 # Afriment B2B & Social Analytics Pipeline
 
-**Role:** Operational Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)[cite: 1]
+## Executive Summary & Key Impact
+- **PIPELINE GOVERNANCE:** Architected clean data pipelines and strict QA gates across 5 workstreams, ensuring 100% schema integrity and zero downstream dashboard errors.
+- **B2B LEAD GENERATION:** Built a deterministic scoring engine for 178 entities, converting raw market data into a prioritized pipeline of 97 high-fit partners and sponsors.
+- **STRATEGIC GROWTH INTELLIGENCE:** Analyzed 12 months of social engagement and market skill gaps, uncovering under-served course markets and high-converting content formats for a strategic pivot.
 
 
 
