@@ -45,16 +45,16 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
 - **Visual Evidence:**
-  ![WS1 Engagement Trend](Visualizations/WS1_Average_ER_By_Month.png)
-
-  <p align="center">
-  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="48%" alt="WS1 Engagement Trend" />
-  <img src="Visualizations/WS1_Media_Format.png" width="48%" alt="WS4 Market Matrix" />
+<p align="center">
+  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
+</p>
+<p align="center">
+  <img src="Visualizations/WS1_Media_Format.png" width="700" alt="WS1 Engagement Trend" />
 </p>
 
-**Key Finding:** Document carousels outperformed static text and images by 3.2x, with Fall (Sep–Dec 2025) yielding the highest engagement window.
+**Key Finding:** **Document Student Testimonial/Career Advice** outperformed single image posts (current dominant posts), with Fall (Sep–Dec 2025) yielding the highest engagement rate window.
 
-**Recommendation:** Adopt a 4-week pilot reallocating content creation resources toward educational document carousels and student testimonials.
+**Recommendation:** Adopt a 4-week pilot reallocating content creation resources toward **Student Testimonial/Career Advice document** carousels and student testimonials.
 
 
 ### Workstream 2, 3 & 5: B2B & Foundation Scoring Pipelines
