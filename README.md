@@ -44,7 +44,8 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 - Analyzed for the best performing Media_Format and Content_Pillar. 4.Broke down the engagement rate trend over 12 months of data.
 
 **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
-- **Visual Evidence:**
+
+**Visual Evidence:**
 <p align="center">
   <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
 </p>
@@ -59,8 +60,13 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 ### Workstream 2, 3 & 5: B2B & Foundation Scoring Pipelines
 
-**The Problem:** In these workstreams the primary question is: **Which companies and communities are the best option that  Afriment can partner to offer its services or absorb sponsorships and community engagements?**  A list of targeted **53 companies** with possible operational problems which talents can be offered, a list of **60 foundations** that can fund  interns & **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
+**The Problem:** In these workstreams the primary question is: **Which companies and communities are the best option that  Afriment can partner to offer its services or absorb sponsorships and community engagements?** 
+- A list of targeted **53 companies** with possible operational problems which talents can be offered,
+- A list of **60 foundations** that can fund  interns
+- And **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
+
 **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
+
 **The Output:** A verified pipeline of **40 Tier-1** companies and **38 confirmed** communities (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
 
 <p align="center">
@@ -76,10 +82,15 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 **Recommendation:**
 
+
 ### Workstream 4: Skills Market Intelligence Model
 
 **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
-**The Execution:** 1.Ingested employer job postings and academy course catalogs. 2.Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
+
+**The Execution:** 
+- Ingested employer job postings and academy course catalogs.
+- Modeled demand vs supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
+
 **The Output:** Strategic adjustments recommendations identifying Data Analytics with the highest oversaturated course while the Business Analytics, Project Managements & No-Code/Automation have a high demand but less academies offering them (Hot Cake).
 
 <p align="center">
@@ -92,5 +103,6 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 ## 4. Key Insights & Strategic Recommendations
 
-**Content Strategy:** Lunch a 4 week pilot project, increasing Document and Student-Testimonial/Career Guide content and validate before large samples**.
-**Curriculum Pivot:** Consider blending Data Analytics with Business Analysis, Project Management & No-code/Automation to stand out in the market.
+- **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
+- **Curriculum Pivot:** Consider **blending Data Analytics with Business Analysis, Project Management & No-code/Automation** to stand out in the market.
+- 
