@@ -64,8 +64,14 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 **The Output:** A verified pipeline of **40 Tier-1** companies and **38 confirmed** communities (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
 
 <p align="center">
-  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
+  <img src="Visualizations/WS2_Company_Pipline.png" width="700" alt="WS1 Engagement Trend" />
 </p>
+
+<p align="center">
+  <img src="Visualizations/WS2_Company_Pipline.png" width="700" alt="WS1 Engagement Trend" />
+</p>
+
+
 **Key Finding:**
 
 **Recommendation:**
