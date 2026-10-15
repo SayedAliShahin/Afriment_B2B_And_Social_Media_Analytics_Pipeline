@@ -87,7 +87,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 </p>
 
 <p align="center">
-  <img src="Visualizations/WS4_Market_Gap_Analysis.jpg" width="700" alt="WS1 Engagement Trend" />
+  <img src="Visualizations/WS4_Skill_Heat_&_Market_Classification.jpg" width="700" alt="WS1 Engagement Trend" />
 </p>
 
 ## 4. Key Insights & Strategic Recommendations
