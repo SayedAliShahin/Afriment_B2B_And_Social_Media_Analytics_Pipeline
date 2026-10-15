@@ -62,7 +62,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 **The Problem:** In these workstreams the primary question is: **Which companies and communities are the best option that  Afriment can partner to offer its services or absorb sponsorships and community engagements?** 
 - A list of targeted **53 companies** with possible operational problems which talents can be offered,
-- A list of **60 foundations** that can fund  interns
+- A list of **62 foundations** that can fund  interns
 - And **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
 
 **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
