@@ -49,7 +49,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
   <p align="center">
   <img src="Visualizations/WS1_Average_ER_By_Month.png" width="48%" alt="WS1 Engagement Trend" />
-  <img src="visualisations/WS1_Media_Format.png" width="48%" alt="WS4 Market Matrix" />
+  <img src="Visualizations/WS1_Media_Format.png" width="48%" alt="WS4 Market Matrix" />
 </p>
 
 **Key Finding:** Document carousels outperformed static text and images by 3.2x, with Fall (Sep–Dec 2025) yielding the highest engagement window.
