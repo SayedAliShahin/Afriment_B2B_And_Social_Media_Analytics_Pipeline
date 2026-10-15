@@ -48,7 +48,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
   ![WS1 Engagement Trend](Visualizations/WS1_Average_ER_By_Month.png)
 
   <p align="center">
-  <img src="visualisations/WS1_Average_ER_By_Month.png" width="48%" alt="WS1 Engagement Trend" />
+  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="48%" alt="WS1 Engagement Trend" />
   <img src="visualisations/WS1_Media_Format.png" width="48%" alt="WS4 Market Matrix" />
 </p>
 
