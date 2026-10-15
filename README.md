@@ -82,6 +82,13 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 **The Execution:** 1.Ingested employer job postings and academy course catalogs. 2.Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
 **The Output:** Strategic adjustments recommendations identifying Data Analytics with the highest oversaturated course while the Business Analytics, Project Managements & No-Code/Automation have a high demand but less academies offering them (Hot Cake).
 
+<p align="center">
+  <img src="Visualizations/WS4_Market_Gap_Analysis.jpg" width="700" alt="WS1 Engagement Trend" />
+</p>
+
+<p align="center">
+  <img src="Visualizations/WS4_Market_Gap_Analysis.jpg" width="700" alt="WS1 Engagement Trend" />
+</p>
 
 ## 4. Key Insights & Strategic Recommendations
 
