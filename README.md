@@ -78,6 +78,12 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 </p>
 
 
+</p>
+<p align="center">
+  <img src="Visualizations/WS5_Community_Map.png" width="700" alt="WS1 Engagement Trend" />
+</p>
+
+
 **Key Finding:**
 
 **Recommendation:**
