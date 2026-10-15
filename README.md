@@ -45,7 +45,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
 - **Visual Evidence:**
-  ![WS1 Engagement Trend](visualisations/ws1_engagement_by_format.png)
+  ![WS1 Engagement Trend](visualisations/WS1_ER_Trend.png)
 
 **Key Finding:** Document carousels outperformed static text and images by 3.2x, with Fall (Sep–Dec 2025) yielding the highest engagement window.
 
