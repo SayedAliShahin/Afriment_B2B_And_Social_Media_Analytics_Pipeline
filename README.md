@@ -7,7 +7,7 @@
 
 
 
-## 1. Business Context & Challenge
+## Business Context & Challenge
 
 Afriment operates a dual-model ecosystem: training tech talent and connecting verified portfolios with B2B employers and partners. Across 5 distinct workstreams (social posts, B2B company pipelines, foundation grants, course markets, and tech communities), raw inputs arrived unstructured, unvalidated, and prone to breaking downstream dashboards. 
 
@@ -17,11 +17,9 @@ Pod B served as the **Data Engine Room**, responsible for Validation, data clean
 
 
 
-## 2. System Architecture & Workflow
+## System Architecture & Workflow
 
-Our team (Pod B) operated in a strict dependency chain to ensure zero data corruption:
-
-Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).
+Our team (Pod B) operated in a strict dependency chain to ensure zero data corruption as Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).
 
 
 
@@ -33,7 +31,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
 
 
 
-## 3. Workstream Deep-Dives & Technical Execution
+## Workstream Deep-Dives & Technical Execution
 
 
 
@@ -110,7 +108,7 @@ Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Scor
   <img src="Visualizations/WS4_Skill_Heat_&_Market_Classification.jpg" width="700" alt="WS1 Engagement Trend" />
 </p>
 
-## 4. Key Insights & Strategic Recommendations
+## Key Insights & Strategic Recommendations
 
 - **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
 - **Curriculum Pivot:** Consider **blending Data Analytics with Business Analysis, Project Management & No-code/Automation** to stand out in the market.
