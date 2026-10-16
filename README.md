@@ -34,8 +34,8 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 
 - **The Problem:** 12 months (2025-09-09 - 2026-8-31) of historical LinkedIn exports lacking standardized classifications such as **Media_Format** and **Content_Pillar** and Afriment wants to know which kind of its content performed the best.
 - **The Execution:**
-  1. Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
-  2. Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
+	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
+	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
   3. Analyzed performance across Media Formats and Content Pillars over 12 months of data.
 - **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
 
