@@ -76,20 +76,20 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 </div>
 
 - **Key Findings & Strategic Recommendations:**
-	- **Finding:**Out of 176 entities investigated across companies, funds, and communities, 97 active targets were verified and qualified for immediate outreach.
+	- **Finding:** Out of 176 entities investigated across companies, funds, and communities, 97 active targets were verified and qualified for immediate outreach.
 	- **Recommendation:**
-   	1. Offer free, value-driven joint events to the 38 qualified communities to organically funnel job seekers into the Afriment ecosystem.
-   	2. Conduct targeted outreach to the 40 Tier-1 companies, positioning Afriment as a verified talent pipeline for specialized domain roles.
-   	3. Engage the 19 active/contactable funds to formalize intern sponsorship structures.
+	   1. Offer free, value-driven joint events to the 38 qualified communities to organically funnel job seekers into the Afriment ecosystem.
+    	2. Conduct targeted outreach to the 40 Tier-1 companies, positioning Afriment as a verified talent pipeline for specialized domain roles.
+     	3. Engage the 19 active/contactable funds to formalize intern sponsorship structures.
 
 ---
 
 ### Workstream 4: Skills Market Intelligence Model
 
 - **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
-- **The Execution:** 
-  	1. Ingested employer job postings and academy course catalogs.
-  	2. Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
+- **The Execution:**
+	- Ingested employer job postings and academy course catalogs.
+	- Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
 - **The Output:** Strategic adjustments recommendations identifying Data Analytics with the highest oversaturated course while the Business Analytics, Project Managements & No-Code/Automation have a high demand but less academies offering them (Hot Cake).
 
 - **Visual Evidence:**
@@ -108,8 +108,8 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 ---
 
 ## 4. Key Insights & Strategic Recommendations
-	- **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
+- **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
 - **Curriculum Pivot:** Consider **blending Data Analytics with Business Analysis, Project Management & No-code/Automation** to stand out in the market.
 - **Ecosystem Outreach:** Execute outreach across **38 regional communities, 40 Tier-1 companies, and 19 active funds** spanning 6 countries by:
-  1. Hosting free, value-driven joint community events to drive organic user acquisition.
-  2. Positioning Afriment as a verified, high-quality talent engine for specialized enterprise domains.
+	- Hosting free, value-driven joint community events to drive organic user acquisition.
+	- Positioning Afriment as a verified, high-quality talent engine for specialized enterprise domains.
