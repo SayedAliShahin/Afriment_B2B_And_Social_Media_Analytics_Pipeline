@@ -116,4 +116,6 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 
 - **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
 - **Curriculum Pivot:** Consider **blending Data Analytics with Business Analysis, Project Management & No-code/Automation** to stand out in the market.
-- 
+- Outreach **38 regional communities, 40 Tier-1 companies & 19 active funds** across 6 countries
+	1. Offer free, value-driven joint events, and converting everyday job 	seekers organically into the Afriment ecosystem
+	2. positioning Afriment as a verified talent pipeline for specialized domain 	roles
