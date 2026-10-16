@@ -24,6 +24,7 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 
 
 **The Source Rule:** Raw exports in `/00_Source_Data/` were treated as read-only. Nothing was ever edited directly in the source.
+
 **Quality Gates:** Every data batch underwent a mandatory 15-minute QA check to eliminate trailing spaces, enforce YYYY-MM-DD date formats, fix numbers stored as text, and eliminate duplicate entries.
 
 
@@ -42,7 +43,8 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 **The Execution:**
 - Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
 - Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
-- Analyzed for the best performing Media_Format and Content_Pillar. 4.Broke down the engagement rate trend over 12 months of data.
+- Analyzed for the best performing Media_Format and Content_Pillar.
+- Broke down the engagement rate trend over 12 months of data.
 
 **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
 
@@ -63,7 +65,7 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 
 **The Problem:** In these workstreams the primary question is: **Which companies and communities are the best option that  Afriment can partner to offer its services or absorb sponsorships and community engagements?** 
 - A list of targeted **53 companies** with possible operational problems which talents can be offered,
-- A list of **62 foundations** that can fund  interns
+- A list of **60 foundations** that can fund  interns
 - And **63 communities** which offers career advice/guidance but not courses which are the best fit for Afriment's courses/trainings partnerships.
 
 **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
@@ -74,22 +76,24 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
   <img src="Visualizations/WS2_Company_Pipline.png" width="700" alt="WS1 Engagement Trend" />
 </p>
 
-<p align="center">
-  <img src="Visualizations/WS2_Company_Pipline.png" width="700" alt="WS1 Engagement Trend" />
-</p>
-
-
+<div align="center">
+  <p style="font-family: Calibri, sans-serif; font-size: 16pt; font-weight: bold; margin-bottom: 2px;">
+    38 out of 63 Communities are pitch ready
+  
 </p>
 <p align="center">
   <img src="Visualizations/WS5_Community_Map.png" width="700" alt="WS1 Engagement Trend" />
 </p>
-
+</div>
 
 **Key Finding:**
+- Out of a total of **176 companies, funds and communities** investigated for protentional **partnership, talent absorb and sponsorship**, a **97 number of communities, funds and companies** are active to be contacted by Afriment for possible collaborations.
 
 **Recommendation:**
-
-
+- Offer free, value-driven joint events to 38 communities, converting everyday job 	seekers organically into the Afriment ecosystem
+- Outreach **40 Tier-1 companies** and position Afriment as a verified talent pipeline for specialized domain.
+- Out reach 19 active/contactable funds to discuss possible intern sponsorships.
+  
 ### Workstream 4: Skills Market Intelligence Model
 
 **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
