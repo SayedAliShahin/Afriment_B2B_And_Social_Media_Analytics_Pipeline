@@ -1,5 +1,5 @@
 # Afriment B2B & Social Analytics Pipeline
-**Role:** Operational Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
+**Role:** Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
 
 ---
 
