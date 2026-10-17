@@ -7,22 +7,24 @@
 ---
 
 ## Executive Summary & Key Impact
-- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source data pipeline across 5 operational workstreams, enforcing 100% schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
+- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source data pipeline across 5 operational workstreams, enforcing schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
 - **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across 178 B2B entities, unlocking a qualified target pipeline of 40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources for talent absorption and sponsorship.
 - **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed 12 months of social performance and market skill demands, identifying a high-performing carousel format and pinpointing an undersupplied course market gap (Business Analytics & Automation) to drive a strategic curriculum pivot.
 
 ---
 
 ## 1. Business Context & Challenge
-Afriment operates a dual-model ecosystem: training tech talent and connecting verified portfolios with B2B employers and partners. Across 5 distinct workstreams (social posts, B2B company pipelines, foundation grants, course markets, and tech communities), raw inputs arrived unstructured, unvalidated, and prone to breaking downstream dashboards. 
+Afriment is a data analytics organization that bridges the gap between knowledge and experience by providing learners with real-world work portfolios. It operates a dual-model ecosystem: training tech talent and connecting verified portfolios with B2B employers and partners. 
 
+Across 5 distinct workstreams (social posts, B2B company pipelines, foundation grants, course markets, and tech communities), raw inputs arrived unstructured, unvalidated, and prone to breaking downstream dashboards. 
 Pod B served as the **Data Engine Room**, responsible for Validation, data cleaning, relational schema design, deterministic scoring rules, and metric validation.
 
 ---
 
 ## 2. System Architecture & Workflow
 
-Our team (Pod B) operated in a strict dependency chain to ensure zero data corruption as Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).
+To make sure zero data corruption in working pods, we operated as following:
+**Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).**
 
 - **The Source Rule:** Raw exports in `/00_Source_Data/` were treated as read-only. Nothing was ever edited directly in the source.
 - **Quality Gates:** Every data batch underwent a mandatory 15-minute QA check to eliminate trailing spaces, enforce YYYY-MM-DD date formats, fix numbers stored as text, and eliminate duplicate entries.
@@ -38,7 +40,7 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
 	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
  - Analyzed performance across Media Formats and Content Pillars over 12 months of data.
-- **The Output:** A fully cleaned, growing full-year dataset validated and analyzed showing **Document** the best performing media format and **Students Testimonial/Career Advice** the best content pillar; Fall (Sep-Dec 2025) showing the highest engagement rate percent.
+- **The Output:** A validated and cleaned full-year dataset of 305 posts classified of media format and content pillar.
 
 - **Visual Evidence:**
 <p align="center">
