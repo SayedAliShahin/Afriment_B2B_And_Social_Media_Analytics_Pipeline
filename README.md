@@ -24,6 +24,7 @@ Pod B served as the **Data Engine Room**, responsible for Validation, data clean
 ## 2. System Architecture & Workflow
 
 To make sure zero data corruption in working pods, we operated as following:
+
 **Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).**
 
 - **The Source Rule:** Raw exports in `/00_Source_Data/` were treated as read-only. Nothing was ever edited directly in the source.
