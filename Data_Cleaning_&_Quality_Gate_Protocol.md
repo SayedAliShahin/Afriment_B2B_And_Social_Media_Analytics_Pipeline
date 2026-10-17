@@ -1,5 +1,4 @@
 # Data Cleaning & Quality Gate Protocol
-**Role:** Operational Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
 
 ---
 
