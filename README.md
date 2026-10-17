@@ -1,6 +1,9 @@
 # Afriment B2B & Social Analytics Pipeline
 **Role:** Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
 
+> [!CAUTION]
+> **Note on Data Privacy:** In compliance with the Afriment internship NDA, all company names, contact emails, and absolute metrics in the sample CSV files have been fully fictionalized or anonymized. The schemas, scoring formulas, and validation rules remain identical to the production pipeline.
+
 ---
 
 ## Executive Summary & Key Impact
@@ -23,9 +26,6 @@ Our team (Pod B) operated in a strict dependency chain to ensure zero data corru
 
 - **The Source Rule:** Raw exports in `/00_Source_Data/` were treated as read-only. Nothing was ever edited directly in the source.
 - **Quality Gates:** Every data batch underwent a mandatory 15-minute QA check to eliminate trailing spaces, enforce YYYY-MM-DD date formats, fix numbers stored as text, and eliminate duplicate entries.
-
-> [!CAUTION]
-> **Note on Data Privacy:** In compliance with the Afriment internship NDA, all company names, contact emails, and absolute metrics in the sample CSV files have been fully fictionalized or anonymized. The schemas, scoring formulas, and validation rules remain identical to the production pipeline
 
 ---
 
