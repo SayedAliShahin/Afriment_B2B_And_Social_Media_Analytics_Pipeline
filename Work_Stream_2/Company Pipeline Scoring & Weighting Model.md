@@ -63,4 +63,4 @@ Once total weighted scores (0–100) are calculated automatically via Excel form
 ## 4. Excel Implementation Formula Reference
 The composite score and tiers were automated in the master workbook using standardized logic:
 * **Priority Score Calculation:** `=SUM([@[ICP_Score]:[Size_Fit_Score]])`
-* **Automated Tier Assignment:** `=IF(ISBLANK([@Priority_Score]), "", IFS([@Priority_Score]>=80, "Tier 1", [@Priority_Score]>=60, "Tier 2", [@Priority_Score]>=40, "Tier 3", TRUE, "Rejected"))
+* **Automated Tier Assignment:** `=IF(ISBLANK([@Priority_Score]), "", IFS([@Priority_Score]>=80, "Tier 1", [@Priority_Score]>=60, "Tier 2", [@Priority_Score]>=40, "Tier 3", TRUE, "Rejected"))`
