@@ -1,12 +1,12 @@
-# Workstream 2: Company Pipeline Scoring & Weighting Model (`02_Scoring_Rules.md`)
-**Role:** Operational Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
+# Workstream 2: Company Pipeline Scoring & Weighting Model (02_Scoring_Rules)
+**Author:** Pod B
 
 ---
 
 ## 1. Overview & Purpose
-To transform raw company entries from Pod A into an actionable B2B partnership pipeline, Pod B implemented a deterministic, weighted scoring model (`02_Scoring_Rules`)[cite: 1, 4]. 
+To transform raw company entries from Pod A into an actionable B2B partnership pipeline, Pod B implemented a deterministic, weighted scoring model (02_Scoring_Rules). 
 
-This model removes subjective bias by grading every company across **five core operational criteria** totaling 100 points, ensuring that only high-intent, highly qualified leads reach Pod C for executive pitch briefs[cite: 1, 4].
+This model removes subjective bias by grading every company across **five core operational criteria** totaling 100 points, ensuring that only high-intent, highly qualified leads reach Pod C for executive pitch briefs.
 
 ---
 
@@ -21,10 +21,10 @@ Evaluates how closely the target organization aligns with Afriment's ideal custo
 * **No clear match:** 0 points
 
 ### B. Number of Verified Pain Signals (Max Weight: 25%)
-Quantifies the presence of visible operational bottlenecks that Afriment products can solve. *(Note: Signals must include verifiable evidence links to qualify)[cite: 4].*
-* **Three verified signals:** 25 points
-* **Two verified signals:** 17 points
-* **One verified signal:** 8 points
+Quantifies the presence of visible operational bottlenecks that Afriment products can solve. *(Note: Signals must include verifiable evidence links to qualify).*
+* **3 verified signals:** 25 points
+* **2 verified signals:** 17 points
+* **1 verified signal:** 8 points
 * **No verified signals:** 0 points
 
 ### C. Decision-Maker Reachability (Max Weight: 20%)
@@ -53,14 +53,14 @@ Once total weighted scores (0–100) are calculated automatically via Excel form
 
 | Total Score Range | Priority Tier | Operational Action & Destination |
 | :--- | :--- | :--- |
-| **80 – 100** | **Tier 1** | Top of the outreach list; immediately routed to Pod C for Executive Pitch Brief creation[cite: 1, 4]. |
-| **60 – 79** | **Tier 2** | Active pipeline target for secondary wave outreach[cite: 4]. |
-| **40 – 59** | **Tier 3** | Maintained in backup inventory for future follow-up[cite: 4]. |
-| **Below 40** | **Rejected** | Excluded from active pipeline; logged with rationale in `03_Rejected_And_Why` to prevent duplicate research[cite: 2, 4]. |
+| **80 – 100** | **Tier 1** | Top of the outreach list; immediately routed to Pod C for Executive Pitch Brief creation. |
+| **60 – 79** | **Tier 2** | Active pipeline target for secondary wave outreach. |
+| **40 – 59** | **Tier 3** | Maintained in backup inventory for future follow-up. |
+| **Below 40** | **Rejected** | Excluded from active pipeline; logged with rationale in `03_Rejected_And_Why` to prevent duplicate research. |
 
 ---
 
 ## 4. Excel Implementation Formula Reference
 The composite score and tiers were automated in the master workbook using standardized logic:
-* **Priority Score Calculation:** `=SUM([@[ICP_Score]:[Size_Fit_Score]])`[cite: 6]
-* **Automated Tier Assignment:** `=IF(ISBLANK([@Priority_Score]), "", IFS([@Priority_Score]>=80, "Tier 1", [@Priority_Score]>=60, "Tier 2", [@Priority_Score]>=40, "Tier 3", TRUE, "Rejected"))`[cite: 6]
+* **Priority Score Calculation:** `=SUM([@[ICP_Score]:[Size_Fit_Score]])`
+* **Automated Tier Assignment:** `=IF(ISBLANK([@Priority_Score]), "", IFS([@Priority_Score]>=80, "Tier 1", [@Priority_Score]>=60, "Tier 2", [@Priority_Score]>=40, "Tier 3", TRUE, "Rejected"))
