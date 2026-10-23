@@ -1,5 +1,5 @@
 # Afriment B2B & Social Analytics Pipeline
-**Role:** Data Analyst / Pod B Engineering Lead (Afriment Data Analytics Internship)
+**Role:** Data Analyst / Pod B (Data Engine), (Afriment Data Analytics Internship)
 
 > [!CAUTION]
 > **Note on Data Privacy:** In compliance with the Afriment internship NDA, all company names, contact emails, and absolute metrics in the sample CSV files have been fully fictionalized or anonymized. The schemas, scoring formulas, and validation rules remain identical to the production pipeline.
