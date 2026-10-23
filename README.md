@@ -13,11 +13,13 @@
 
 ---
 
-## 1. Business Context & Challenge
-Afriment is a data analytics organization that bridges the gap between knowledge and experience by providing learners with real-world work portfolios. It operates a dual-model ecosystem: training tech talent and connecting verified portfolios with B2B employers and partners. 
+## Business Scenario
+**Afriment** is a **data analytics organization** that **bridges the gap between knowledge and experience by **providing learners with real-world work experience**. It operates a dual-model ecosystem: **training tech talent and connecting verified talents with B2B employers and partners**. The primary goal of this internship project is to answer to the following questions:
+- **Which kind of Afriment's social content performed well since last year?**
+- **Which companies can potentially partner or sponsor Afriment's tech training programs?**
+- **Where is the skill market gap across 6 studied countries and an opportunity for Afriment?**
 
-Across 5 distinct workstreams (social posts, B2B company pipelines, foundation grants, course markets, and tech communities), raw inputs arrived unstructured, unvalidated, and prone to breaking downstream dashboards. 
-Pod B served as the **Data Engine Room**, responsible for Validation, data cleaning, relational schema design, deterministic scoring rules, and metric validation.
+Across 5 distinct workstreams (social posts, B2B company pipelines, foundation grants, course markets, and tech communities), we (Pod B) validated and cleaned raw data, then applied deterministic scoring rules on pipelines.
 
 ---
 
