@@ -58,7 +58,7 @@ To make sure zero data corruption in working pods, we operated as following:
 
 ---
 
-### Workstream 2, 3 & 5: B2B & Foundation Scoring Pipelines
+### Workstream 2, 3 & 5: B2B, Funds & Communities Pipelines
 - **The Problem:** Which companies and communities are the best option for Afriment to partner, absorb sponsorships and secure community engagement? across
 	- **53 companies** with operational gaps suitable for talent placement.
 	- **60 foundations** capable of funding intern cohorts.
@@ -90,7 +90,7 @@ To make sure zero data corruption in working pods, we operated as following:
 
 ---
 
-### Workstream 4: Skills Market Intelligence Model
+### Workstream 4: Skills Market Intelligence
 
 - **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
 - **The Execution:**
