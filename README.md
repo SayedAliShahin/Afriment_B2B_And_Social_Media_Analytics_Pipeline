@@ -7,9 +7,9 @@
 ---
 
 ## Executive Summary & Key Impact
-- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source data pipeline across 5 operational workstreams, enforcing schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
-- **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across 178 B2B entities, unlocking a qualified target pipeline of 40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources for talent absorption and sponsorship.
-- **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed 12 months of social performance and market skill demands, identifying a high-performing carousel format and pinpointing an undersupplied course market gap (Business Analytics & Automation) to drive a strategic curriculum pivot.
+- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source **data pipeline across 5 operational workstreams**, enforcing schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
+- **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across **178 B2B entities, unlocking a qualified target pipeline of **40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources** for talent absorption and sponsorship.
+- **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed **12 months of social performance and market skill demands**, identifying a **high-performing Document/Student Testimonial** format and pinpointing an undersupplied course market gap **(Business Analytics, project management & AI Automation)** to drive a strategic curriculum pivot.
 
 ---
 
