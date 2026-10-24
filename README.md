@@ -7,15 +7,15 @@
 ---
 
 ## Executive Summary & Key Impact
-- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source **data pipeline across 5 operational workstreams**, enforcing schema integrity and automated QA gates that eliminated downstream dashboard errors for Pod C analytics.
-- **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across **178 B2B entities, unlocking a qualified target pipeline of **40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources** for talent absorption and sponsorship.
+- **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source **data pipeline across 5 operational workstreams**, enforcing schema integrity and automated quality gates that eliminated downstream dashboard errors for Pod C analytics.
+- **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across **178 B2B entities**, unlocking a qualified target pipeline of **40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources** for talent absorption and sponsorship.
 - **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed **12 months of social performance and market skill demands**, identifying a **high-performing Document/Student Testimonial** format and pinpointing an undersupplied course market gap **(Business Analytics, project management & AI Automation)** to drive a strategic curriculum pivot.
 
 ---
 
 ## Business Scenario
-**Afriment** is a **data analytics organization** that **bridges the gap between knowledge and experience by **providing learners with real-world work experience**. It operates a dual-model ecosystem: **training tech talent and connecting verified talents with B2B employers and partners**. The primary goal of this internship project is to answer to the following questions:
-- **Which kind of Afriment's social content performed well since last year?**
+**Afriment** is a **data analytics organization** that bridges the gap between knowledge and experience by **providing learners with real-world work experience**. It operates a dual-model ecosystem: **training tech talent and connecting verified talents with B2B employers and partners**. The primary goal of this internship project is to answer to the following questions:
+- **Which kind of Afriment's social content performed well since last 12 months (Sep 2025 - Aug 2026?**
 - **Which companies can potentially partner or sponsor Afriment's tech training programs?**
 - **Where is the skill market gap across 6 studied countries and an opportunity for Afriment?**
 
@@ -30,7 +30,7 @@ To make sure zero data corruption in working pods, we operated as following:
 **Raw Inputs (Pod A / Exports) **-->** Pod B Engine (Clean, Standardize, Rule-Score) **-->** Outputs (Pod C Dashboards / SQL Models).**
 
 - **The Source Rule:** Raw exports in `/00_Source_Data/` were treated as read-only. Nothing was ever edited directly in the source.
-- **Quality Gates:** Every data batch underwent a mandatory 15-minute QA check to eliminate trailing spaces, enforce YYYY-MM-DD date formats, fix numbers stored as text, and eliminate duplicate entries.
+- **Quality Gates:** Every data batch underwent a **mandatory quality gate check** to eliminate **trailing spaces**, enforce **YYYY-MM-DD** date formats, fix **numbers stored as text**, and eliminate **duplicate** entries.
 
 ---
 
@@ -38,7 +38,7 @@ To make sure zero data corruption in working pods, we operated as following:
 
 ### Workstream 1: Social Media Performance Autopsy (305 Posts)
 
-- **The Problem:** 12 months (2025-09-09 - 2026-8-31) of historical LinkedIn exports lacking standardized classifications such as **Media_Format** and **Content_Pillar** and Afriment wants to know which kind of its content performed the best.
+- **The Goal:** 12 months (2025-09-09 - 2026-8-31) of historical LinkedIn exports lacking standardized classifications such as **Media_Format** and **Content_Pillar** and Afriment wants to know which kind of its content performed the best.
 - **The Execution:**
 	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
 	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
@@ -59,7 +59,7 @@ To make sure zero data corruption in working pods, we operated as following:
 ---
 
 ### Workstream 2, 3 & 5: B2B, Funds & Communities Pipelines
-- **The Problem:** Which companies and communities are the best option for Afriment to partner, absorb sponsorships and secure community engagement? across
+- **The Goal:** Which companies and communities are the best option for Afriment to partner, absorb sponsorships and secure community engagement? across
 	- **53 companies** with operational gaps suitable for talent placement.
 	- **60 foundations** capable of funding intern cohorts.
 	- **63 communities** offering career guidance (non-competitor training models) fitting partnership criteria.
@@ -92,7 +92,7 @@ To make sure zero data corruption in working pods, we operated as following:
 
 ### Workstream 4: Skills Market Intelligence
 
-- **The Problem:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
+- **The Goal:** A market gap between tech academies course offerings and actual employer hiring demands across 6 African countries.
 - **The Execution:**
 	- Ingested employer job postings and academy course catalogs.
 	- Modeled demand vs. supply metrics to compute skill heat ratings and categorized them into a 2x2 matrix (*Hot Cakes, The Gap, Oversupplied, Dormant*).
