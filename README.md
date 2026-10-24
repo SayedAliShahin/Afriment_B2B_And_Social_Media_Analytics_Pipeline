@@ -42,9 +42,8 @@ To make sure zero data corruption in working pods, we operated as following:
 - **The Execution:**
 	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
 	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
- - Analyzed performance across Media Formats and Content Pillars over 12 months of data.
-- **The Output:** A validated and cleaned full-year dataset of 305 posts classified of media format and content pillar.
-
+ 	- Analyzed performance across Media Formats, Content Pillars and post engagement rate over 12 months of data.
+- **Output:** A 305 cleaned and classified content posts since last 12 months.
 - **Visual Evidence:**
 <p align="center">
   <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
@@ -54,17 +53,17 @@ To make sure zero data corruption in working pods, we operated as following:
 </p>
 
 - **Key Finding:** **Document Student Testimonial/Career Advice** outperformed single image posts (current dominant posts), with Fall (Sep–Dec 2025) yielding the highest engagement rate window.
-- **Recommendation:** Adopt a 4-week pilot reallocating content creation resources toward **Student Testimonial/Career Advice document** carousels and student testimonials.
+- **Recommendation:** Adopt a 4-week pilot reallocating content creation resources toward **document and Student Testimonial/Career Advice document** carousels and student testimonials.
 
 ---
 
 ### Workstream 2, 3 & 5: B2B, Funds & Communities Pipelines
-- **The Goal:** Which companies and communities are the best option for Afriment to partner, absorb sponsorships and secure community engagement? across
+- **The Goal:** Which companies and communities are the best option for Afriment to partner, absorb sponsorships and secure community engagement across:
 	- **53 companies** with operational gaps suitable for talent placement.
 	- **60 foundations** capable of funding intern cohorts.
 	- **63 communities** offering career guidance (non-competitor training models) fitting partnership criteria.
 - **The Execution:** Designed a live weighted scoring model (`02_Scoring_Rules`) to rank companies and foundations based on online social presence, evidence of recent activity, active funding windows, grant sizes, and verified decision-maker channels.
-- **The Output:** A verified pipeline of **40 Tier-1** companies and **38 confirmed** communities (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
+- **The Output:** A verified pipeline of **40 Tier-1 companies** and **38 confirmed communities** (Score >= 80) for potential partnership and **19 active/contactable foundations** that can be Afriment's interns potential sponsors.
 
 - **Visual Evidence:**
 <p align="center">
@@ -82,7 +81,7 @@ To make sure zero data corruption in working pods, we operated as following:
 </div>
 
 - **Key Findings & Strategic Recommendations:**
-	- **Finding:** Out of 176 entities investigated across companies, funds, and communities, 97 active targets were verified and qualified for immediate outreach.
+	- **Finding:** Out of 176 entities investigated across companies, funds, and communities, **97 active targets** were verified and qualified for immediate outreach.
 	- **Recommendation:**
 	   1. Offer free, value-driven joint events to the 38 qualified communities to organically funnel job seekers into the Afriment ecosystem.
     	2. Conduct targeted outreach to the 40 Tier-1 companies, positioning Afriment as a verified talent pipeline for specialized domain roles.
@@ -108,7 +107,7 @@ To make sure zero data corruption in working pods, we operated as following:
 </p>
 
 - **Key Findings & Strategic Recommendations:**
-  - **Finding:** Traditional Data Analytics course supply vastly outpaces distinct regional employer demand spikes, whereas applied hybrid domains like Business Analytics and Automation represent open market opportunities.
+  - **Finding:** Traditional **Data Analytics** course supply vastly outpaces distinct regional employer demand spikes, whereas applied hybrid domains like **Business Analytics, Project Management and No-Code/Automation** represent open market opportunities.
   - **Recommendation:** Blend Data Analytics training modules with Business Analysis, Project Management, and No-Code/Automation tracks to differentiate graduates and maximize placement success.
 
 ---
