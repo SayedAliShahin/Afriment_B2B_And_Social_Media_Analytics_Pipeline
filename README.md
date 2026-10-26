@@ -50,10 +50,11 @@ To make sure zero data corruption in working pods, we operated as following:
   <img src="Visualizations/WS1_Current_Posting.png" width="700" alt="WS1 Engagement Trend" />
 	
 <p align="center">
-  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
-</p>
-<p align="center">
   <img src="Visualizations/WS1_Media_Format.png" width="700" alt="WS1 Engagement Trend" />
+</p>
+
+<p align="center">
+  <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
 </p>
 
 - **Key Finding:** **Document Student Testimonial/Career Advice** outperformed single image posts (current dominant posts), with Fall (Sep–Dec 2025) yielding the highest engagement rate window.
