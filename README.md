@@ -45,6 +45,10 @@ To make sure zero data corruption in working pods, we operated as following:
  	- Analyzed performance across Media Formats, Content Pillars and post engagement rate over 12 months of data.
 - **Output:** A 305 cleaned and classified content posts since last 12 months.
 - **Visual Evidence:**
+
+<p align="center">
+  <img src="Visualizations/WS1_Current_Posting.png" width="700" alt="WS1 Engagement Trend" />
+	
 <p align="center">
   <img src="Visualizations/WS1_Average_ER_By_Month.png" width="700" alt="WS1 Engagement Trend" />
 </p>
