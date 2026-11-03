@@ -9,13 +9,13 @@
 ## Executive Summary & Key Impact
 - **DATA INFRASTRUCTURE & QUALITY:** Standardized multi-source **data pipeline across 5 operational workstreams**, enforcing schema integrity and automated quality gates that eliminated downstream dashboard errors for Pod C analytics.
 - **B2B PARTNERSHIP & MONETIZATION PIPELINE:** Architected a deterministic weighted-scoring model across **176 B2B entities**, unlocking a qualified target pipeline of **40 Tier-1 companies, 38 high-fit communities, and 19 active funding sources** for talent absorption and sponsorship.
-- **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed **12 months of social performance and market skill demands**, identifying a **high-performing Document/Student Testimonial** format and pinpointing an undersupplied course market gap **(Business Analytics, project management & AI Automation)** to drive a strategic curriculum pivot.
+- **CONTENT & CURRICULUM STRATEGY OPTIMIZATION:** Diagnosed **12 months of social performance and market skill demands**, identifying a **high-performing Document/Student Testimonial** format and pinpointing an undersupplied course market gap **(Business Analytics, project management & No-Code/Automation)** to drive a strategic curriculum pivot.
 
 ---
 
 ## Business Scenario
 **Afriment** is a **data analytics organization** that bridges the gap between knowledge and experience by **providing learners with real-world work experience**. It operates a dual-model ecosystem: **training tech talent and connecting verified talents with B2B employers and partners**. The primary goal of this internship project is to answer to the following questions:
-- **Which kind of Afriment's social content performed well since last 12 months (Sep 2025 - Aug 2026?)**
+- **Which kind of Afriment's social content performed well since last 12 months (Sep 2025 - Aug 2026)?**
 - **Which companies can potentially partner or sponsor Afriment's tech training programs?**
 - **Where is the skill market gap across 6 studied countries and an opportunity for Afriment?**
 
@@ -36,14 +36,14 @@ To make sure zero data corruption in working pods, we operated as following:
 
 ## Workstream Deep-Dives & Technical Execution
 
-### Workstream 1: Social Media Performance Autopsy (306 Posts)
+### Workstream 1: Social Media Performance Autopsy (297 Posts)
 
 - **The Goal:** 12 months (2025-09-09 - 2026-8-31) of historical LinkedIn exports lacking standardized classifications such as **Media_Format** and **Content_Pillar** and Afriment wants to know which kind of its content performed the best.
 - **The Execution:**
-	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
+	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 297 unique posts out 305 posts through manual checking.
 	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
  	- Analyzed performance across Media Formats, Content Pillars and post engagement rate over 12 months of data.
-- **Output:** A 306 cleaned and classified content posts since last 12 months.
+- **Output:** A 297 cleaned and classified content posts since last 12 months.
 - **Visual Evidence:**
 
 <p align="center">
