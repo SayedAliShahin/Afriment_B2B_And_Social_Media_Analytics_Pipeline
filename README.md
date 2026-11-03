@@ -43,7 +43,7 @@ To make sure zero data corruption in working pods, we operated as following:
 	- Created `04_Classification_Rules` to tag Media Formats and Content Pillars and classified all 306 posts through manual checking.
 	- Built `02_Clean_Posts` to track metrics and utilized median engagement rates per 1,000 impressions to prevent viral anomalies from skewing performance baselines.
  	- Analyzed performance across Media Formats, Content Pillars and post engagement rate over 12 months of data.
-- **Output:** A 305 cleaned and classified content posts since last 12 months.
+- **Output:** A 306 cleaned and classified content posts since last 12 months.
 - **Visual Evidence:**
 
 <p align="center">
