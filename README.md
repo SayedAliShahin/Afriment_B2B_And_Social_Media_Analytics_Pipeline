@@ -118,7 +118,7 @@ To make sure zero data corruption in working pods, we operated as following:
 ---
 
 ## Key Insights & Strategic Recommendations
-- **Content Strategy:** Lunch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
+- **Content Strategy:** Launch a 4 week pilot project, increasing **Document and Student-Testimonial/Career Guide** content and validate before large samples.
 - **Curriculum Pivot:** Consider **blending Data Analytics with Business Analysis, Project Management & No-code/Automation** to stand out in the market.
 - **Ecosystem Outreach:** Execute outreach across **38 regional communities, 40 Tier-1 companies, and 19 active funds** spanning 6 countries by:
 	- Hosting free, value-driven joint community events to drive organic user acquisition.
